@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>简单搜索</title>
+    <script src="jquery-3.3.1/jquery-3.3.1.min.js"></script>
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</head>
+<style>
+    body{
+        font-size: 12px;
+        font-family: Arial;
+    }
+    a{
+        color: #999;
+    }
+    a:hover{
+        text-decoration: none;
+        color: #C40000;
+    }
+    img.simpleLogo{
+        position: absolute;
+        left: 10px;
+        top:50px;
+        width: 140px;
+    }
+    div.simpleSearchDiv{
+        float: right;
+        background-color: #C40000;
+        margin:50px 20px 40px;
+        padding:1px;
+        width: 300px;
+        height: 40px;
+        display: block;
+    }
+    div.simpleSearchDiv input{
+        width: 225px;
+        border: 1px solid transparent;
+        margin: 2px;
+        height: 34px;
+        outline: none;
+    }
+    div.simpleSearchDiv button{
+        width: 60px;
+        border: 1px solid transparent;
+        color: white;
+        font-size: 14px;
+        background-color: #C40000;
+        font-weight: bold;
+    }
+    div.searchBelow{
+        margin-top: 3px;
+        margin-left: -20px;
+    }
+    div.searchBelow a{
+        padding: 0px 20px;
+        font-size: 14px;
+    }
+</style>
+<body>
+    <div>
+        <a href="#nowhere">
+            <img src="img/site/simpleLogo.png" class="simpleLogo" id="simpleLogo">
+        </a>
+        <div class="simpleSearchDiv">
+            <input type="text" name="keyword" placeholder="平衡车 原汁机">
+            <button type="button" class="searchButton">搜天猫</button>
+            <div class="searchBelow">
+                <a href="#nowhere">冰箱</a>
+                <a href="#nowhere">空调</a>
+                <a href="#nowhere">女表</a>
+                <a href="#nowhere">男表</a>
+            </div>
+        </div>
+        <div style="clear:both"></div>
+    </div>
+</body>
+</html>
